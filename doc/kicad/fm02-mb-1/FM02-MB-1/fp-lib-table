@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Connector_SMD)(type KiCad)(uri ${KIPRJMOD}/lib/Connector_SMD.pretty)(options "")(descr ""))
+)
