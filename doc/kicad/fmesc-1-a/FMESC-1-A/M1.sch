@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 5
 Title "FMESC-1-A  M1"
-Date "2020-11-05"
+Date "2020-11-07"
 Rev "TODO"
 Comp "sceext"
 Comment1 ""
@@ -308,11 +308,11 @@ CHG
 Text Label 5900 5500 2    50   ~ 0
 CLG
 Wire Wire Line
-	2500 5700 2500 6000
+	2500 5700 2500 5900
 Wire Wire Line
-	4500 5700 4500 6000
+	4500 5700 4500 5900
 Wire Wire Line
-	6500 5700 6500 6000
+	6500 5700 6500 5900
 $Comp
 L fmlibs:FD6288Q U1
 U 1 1 5FA29EC3
@@ -392,7 +392,7 @@ Text Label 3650 2550 0    50   ~ 0
 B1
 Text Label 3250 3150 3    50   ~ 0
 C1
-Text Label 1500 1500 0    50   ~ 0
+Text Label 1500 1000 0    50   ~ 0
 VC
 Text Label 2000 2550 0    50   ~ 0
 VC
@@ -554,16 +554,6 @@ CBH1
 Text HLabel 2750 1850 1    50   Input ~ 0
 CCH1
 Text HLabel 1500 1000 0    50   Input ~ 0
-VBAT
-Text Label 1500 1000 0    50   ~ 0
-VB
-Text Label 2500 4800 0    50   ~ 0
-VB
-Text Label 4500 4800 0    50   ~ 0
-VB
-Text Label 6500 4800 0    50   ~ 0
-VB
-Text HLabel 1500 1500 0    50   Input ~ 0
 VCC
 Text HLabel 2500 5300 0    50   BiDi ~ 0
 A1
@@ -572,97 +562,46 @@ B1
 Text HLabel 6500 5300 0    50   BiDi ~ 0
 C1
 $Comp
-L Connector_Generic:Conn_01x01 JB1
-U 1 1 5FA4238A
-P 2500 4500
-AR Path="/5FA1845D/5FA4238A" Ref="JB1"  Part="1" 
-AR Path="/5FA3E74F/5FA4238A" Ref="JB4"  Part="1" 
-AR Path="/5FA3EBFA/5FA4238A" Ref="JB7"  Part="1" 
-AR Path="/5FA3F05C/5FA4238A" Ref="JB10"  Part="1" 
-F 0 "JB1" V 2464 4412 50  0000 R CNN
-F 1 "Conn_01x01" V 2373 4412 50  0000 R CNN
-F 2 "fmlibf:JS4x5mm" H 2500 4500 50  0001 C CNN
-F 3 "~" H 2500 4500 50  0001 C CNN
-	1    2500 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 JB2
-U 1 1 5FA426D1
-P 4500 4500
-AR Path="/5FA1845D/5FA426D1" Ref="JB2"  Part="1" 
-AR Path="/5FA3E74F/5FA426D1" Ref="JB5"  Part="1" 
-AR Path="/5FA3EBFA/5FA426D1" Ref="JB8"  Part="1" 
-AR Path="/5FA3F05C/5FA426D1" Ref="JB11"  Part="1" 
-F 0 "JB2" V 4464 4412 50  0000 R CNN
-F 1 "Conn_01x01" V 4373 4412 50  0000 R CNN
-F 2 "fmlibf:JS4x5mm" H 4500 4500 50  0001 C CNN
-F 3 "~" H 4500 4500 50  0001 C CNN
-	1    4500 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 JB3
-U 1 1 5FA42AF1
-P 6500 4500
-AR Path="/5FA1845D/5FA42AF1" Ref="JB3"  Part="1" 
-AR Path="/5FA3E74F/5FA42AF1" Ref="JB6"  Part="1" 
-AR Path="/5FA3EBFA/5FA42AF1" Ref="JB9"  Part="1" 
-AR Path="/5FA3F05C/5FA42AF1" Ref="JB12"  Part="1" 
-F 0 "JB3" V 6464 4412 50  0000 R CNN
-F 1 "Conn_01x01" V 6373 4412 50  0000 R CNN
-F 2 "fmlibf:JS4x5mm" H 6500 4500 50  0001 C CNN
-F 3 "~" H 6500 4500 50  0001 C CNN
-	1    6500 4500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2500 4800 2500 4700
-Wire Wire Line
-	4500 4800 4500 4700
-Wire Wire Line
-	6500 4800 6500 4700
-$Comp
-L Connector_Generic:Conn_01x01 JMA1
+L Connector_Generic:Conn_01x01 MA1
 U 1 1 5FA44AA6
 P 3000 5250
-AR Path="/5FA1845D/5FA44AA6" Ref="JMA1"  Part="1" 
-AR Path="/5FA3E74F/5FA44AA6" Ref="JMA2"  Part="1" 
-AR Path="/5FA3EBFA/5FA44AA6" Ref="JMA3"  Part="1" 
-AR Path="/5FA3F05C/5FA44AA6" Ref="JMA4"  Part="1" 
-F 0 "JMA1" H 3080 5292 50  0000 L CNN
+AR Path="/5FA1845D/5FA44AA6" Ref="MA1"  Part="1" 
+AR Path="/5FA3E74F/5FA44AA6" Ref="MA2"  Part="1" 
+AR Path="/5FA3EBFA/5FA44AA6" Ref="MA3"  Part="1" 
+AR Path="/5FA3F05C/5FA44AA6" Ref="MA4"  Part="1" 
+F 0 "MA1" H 3080 5292 50  0000 L CNN
 F 1 "Conn_01x01" H 3080 5201 50  0000 L CNN
-F 2 "fmlibf:JS4x5mm" H 3000 5250 50  0001 C CNN
+F 2 "fmlibf:JS3x4mm" H 3000 5250 50  0001 C CNN
 F 3 "~" H 3000 5250 50  0001 C CNN
 	1    3000 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 JMB1
+L Connector_Generic:Conn_01x01 MB1
 U 1 1 5FA44F40
 P 5000 5250
-AR Path="/5FA1845D/5FA44F40" Ref="JMB1"  Part="1" 
-AR Path="/5FA3E74F/5FA44F40" Ref="JMB2"  Part="1" 
-AR Path="/5FA3EBFA/5FA44F40" Ref="JMB3"  Part="1" 
-AR Path="/5FA3F05C/5FA44F40" Ref="JMB4"  Part="1" 
-F 0 "JMB1" H 5080 5292 50  0000 L CNN
+AR Path="/5FA1845D/5FA44F40" Ref="MB1"  Part="1" 
+AR Path="/5FA3E74F/5FA44F40" Ref="MB2"  Part="1" 
+AR Path="/5FA3EBFA/5FA44F40" Ref="MB3"  Part="1" 
+AR Path="/5FA3F05C/5FA44F40" Ref="MB4"  Part="1" 
+F 0 "MB1" H 5080 5292 50  0000 L CNN
 F 1 "Conn_01x01" H 5080 5201 50  0000 L CNN
-F 2 "fmlibf:JS4x5mm" H 5000 5250 50  0001 C CNN
+F 2 "fmlibf:JS3x4mm" H 5000 5250 50  0001 C CNN
 F 3 "~" H 5000 5250 50  0001 C CNN
 	1    5000 5250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 JMC1
+L Connector_Generic:Conn_01x01 MC1
 U 1 1 5FA4532B
 P 7000 5250
-AR Path="/5FA1845D/5FA4532B" Ref="JMC1"  Part="1" 
-AR Path="/5FA3E74F/5FA4532B" Ref="JMC2"  Part="1" 
-AR Path="/5FA3EBFA/5FA4532B" Ref="JMC3"  Part="1" 
-AR Path="/5FA3F05C/5FA4532B" Ref="JMC4"  Part="1" 
-F 0 "JMC1" H 7080 5292 50  0000 L CNN
+AR Path="/5FA1845D/5FA4532B" Ref="MC1"  Part="1" 
+AR Path="/5FA3E74F/5FA4532B" Ref="MC2"  Part="1" 
+AR Path="/5FA3EBFA/5FA4532B" Ref="MC3"  Part="1" 
+AR Path="/5FA3F05C/5FA4532B" Ref="MC4"  Part="1" 
+F 0 "MC1" H 7080 5292 50  0000 L CNN
 F 1 "Conn_01x01" H 7080 5201 50  0000 L CNN
-F 2 "fmlibf:JS4x5mm" H 7000 5250 50  0001 C CNN
+F 2 "fmlibf:JS3x4mm" H 7000 5250 50  0001 C CNN
 F 3 "~" H 7000 5250 50  0001 C CNN
 	1    7000 5250
 	1    0    0    -1  
@@ -682,4 +621,175 @@ Wire Wire Line
 Connection ~ 2500 5250
 Wire Wire Line
 	2500 5250 2500 5300
+$Comp
+L power:+BATT #PWR0119
+U 1 1 5FA6301C
+P 2500 4500
+AR Path="/5FA1845D/5FA6301C" Ref="#PWR0119"  Part="1" 
+AR Path="/5FA3E74F/5FA6301C" Ref="#PWR0122"  Part="1" 
+AR Path="/5FA3EBFA/5FA6301C" Ref="#PWR0125"  Part="1" 
+AR Path="/5FA3F05C/5FA6301C" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0119" H 2500 4350 50  0001 C CNN
+F 1 "+BATT" H 2515 4673 50  0000 C CNN
+F 2 "" H 2500 4500 50  0001 C CNN
+F 3 "" H 2500 4500 50  0001 C CNN
+	1    2500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JB1
+U 1 1 5FA6A42A
+P 3000 4600
+AR Path="/5FA1845D/5FA6A42A" Ref="JB1"  Part="1" 
+AR Path="/5FA3E74F/5FA6A42A" Ref="JB4"  Part="1" 
+AR Path="/5FA3EBFA/5FA6A42A" Ref="JB7"  Part="1" 
+AR Path="/5FA3F05C/5FA6A42A" Ref="JB10"  Part="1" 
+F 0 "JB1" H 3080 4642 50  0000 L CNN
+F 1 "Conn_01x01" H 3080 4551 50  0000 L CNN
+F 2 "fmlibf:JS3x5mm" H 3000 4600 50  0001 C CNN
+F 3 "~" H 3000 4600 50  0001 C CNN
+	1    3000 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4500 2500 4600
+Wire Wire Line
+	2800 4600 2500 4600
+Connection ~ 2500 4600
+Wire Wire Line
+	2500 4600 2500 4800
+$Comp
+L Connector_Generic:Conn_01x01 JG1
+U 1 1 5FA7366A
+P 3000 5900
+AR Path="/5FA1845D/5FA7366A" Ref="JG1"  Part="1" 
+AR Path="/5FA3E74F/5FA7366A" Ref="JG4"  Part="1" 
+AR Path="/5FA3EBFA/5FA7366A" Ref="JG7"  Part="1" 
+AR Path="/5FA3F05C/5FA7366A" Ref="JG10"  Part="1" 
+F 0 "JG1" H 3080 5942 50  0000 L CNN
+F 1 "Conn_01x01" H 3080 5851 50  0000 L CNN
+F 2 "fmlibf:JS3x4mm" H 3000 5900 50  0001 C CNN
+F 3 "~" H 3000 5900 50  0001 C CNN
+	1    3000 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5900 2500 5900
+Connection ~ 2500 5900
+Wire Wire Line
+	2500 5900 2500 6000
+$Comp
+L power:+BATT #PWR0120
+U 1 1 5FA76D98
+P 4500 4500
+AR Path="/5FA1845D/5FA76D98" Ref="#PWR0120"  Part="1" 
+AR Path="/5FA3E74F/5FA76D98" Ref="#PWR0123"  Part="1" 
+AR Path="/5FA3EBFA/5FA76D98" Ref="#PWR0126"  Part="1" 
+AR Path="/5FA3F05C/5FA76D98" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0120" H 4500 4350 50  0001 C CNN
+F 1 "+BATT" H 4515 4673 50  0000 C CNN
+F 2 "" H 4500 4500 50  0001 C CNN
+F 3 "" H 4500 4500 50  0001 C CNN
+	1    4500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR0121
+U 1 1 5FA770E9
+P 6500 4500
+AR Path="/5FA1845D/5FA770E9" Ref="#PWR0121"  Part="1" 
+AR Path="/5FA3E74F/5FA770E9" Ref="#PWR0124"  Part="1" 
+AR Path="/5FA3EBFA/5FA770E9" Ref="#PWR0127"  Part="1" 
+AR Path="/5FA3F05C/5FA770E9" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0121" H 6500 4350 50  0001 C CNN
+F 1 "+BATT" H 6515 4673 50  0000 C CNN
+F 2 "" H 6500 4500 50  0001 C CNN
+F 3 "" H 6500 4500 50  0001 C CNN
+	1    6500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JB2
+U 1 1 5FA7749F
+P 5000 4600
+AR Path="/5FA1845D/5FA7749F" Ref="JB2"  Part="1" 
+AR Path="/5FA3E74F/5FA7749F" Ref="JB5"  Part="1" 
+AR Path="/5FA3EBFA/5FA7749F" Ref="JB8"  Part="1" 
+AR Path="/5FA3F05C/5FA7749F" Ref="JB11"  Part="1" 
+F 0 "JB2" H 5080 4642 50  0000 L CNN
+F 1 "Conn_01x01" H 5080 4551 50  0000 L CNN
+F 2 "fmlibf:JS3x5mm" H 5000 4600 50  0001 C CNN
+F 3 "~" H 5000 4600 50  0001 C CNN
+	1    5000 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JB3
+U 1 1 5FA7789A
+P 7000 4600
+AR Path="/5FA1845D/5FA7789A" Ref="JB3"  Part="1" 
+AR Path="/5FA3E74F/5FA7789A" Ref="JB6"  Part="1" 
+AR Path="/5FA3EBFA/5FA7789A" Ref="JB9"  Part="1" 
+AR Path="/5FA3F05C/5FA7789A" Ref="JB12"  Part="1" 
+F 0 "JB3" H 7080 4642 50  0000 L CNN
+F 1 "Conn_01x01" H 7080 4551 50  0000 L CNN
+F 2 "fmlibf:JS3x5mm" H 7000 4600 50  0001 C CNN
+F 3 "~" H 7000 4600 50  0001 C CNN
+	1    7000 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JG2
+U 1 1 5FA77F11
+P 5000 5900
+AR Path="/5FA1845D/5FA77F11" Ref="JG2"  Part="1" 
+AR Path="/5FA3E74F/5FA77F11" Ref="JG5"  Part="1" 
+AR Path="/5FA3EBFA/5FA77F11" Ref="JG8"  Part="1" 
+AR Path="/5FA3F05C/5FA77F11" Ref="JG11"  Part="1" 
+F 0 "JG2" H 5080 5942 50  0000 L CNN
+F 1 "Conn_01x01" H 5080 5851 50  0000 L CNN
+F 2 "fmlibf:JS3x4mm" H 5000 5900 50  0001 C CNN
+F 3 "~" H 5000 5900 50  0001 C CNN
+	1    5000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JG3
+U 1 1 5FA782C1
+P 7000 5900
+AR Path="/5FA1845D/5FA782C1" Ref="JG3"  Part="1" 
+AR Path="/5FA3E74F/5FA782C1" Ref="JG6"  Part="1" 
+AR Path="/5FA3EBFA/5FA782C1" Ref="JG9"  Part="1" 
+AR Path="/5FA3F05C/5FA782C1" Ref="JG12"  Part="1" 
+F 0 "JG3" H 7080 5942 50  0000 L CNN
+F 1 "Conn_01x01" H 7080 5851 50  0000 L CNN
+F 2 "fmlibf:JS3x4mm" H 7000 5900 50  0001 C CNN
+F 3 "~" H 7000 5900 50  0001 C CNN
+	1    7000 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4500 4500 4600
+Wire Wire Line
+	4800 4600 4500 4600
+Connection ~ 4500 4600
+Wire Wire Line
+	4500 4600 4500 4800
+Wire Wire Line
+	4800 5900 4500 5900
+Connection ~ 4500 5900
+Wire Wire Line
+	4500 5900 4500 6000
+Wire Wire Line
+	6800 5900 6500 5900
+Connection ~ 6500 5900
+Wire Wire Line
+	6500 5900 6500 6000
+Wire Wire Line
+	6500 4500 6500 4600
+Wire Wire Line
+	6800 4600 6500 4600
+Connection ~ 6500 4600
+Wire Wire Line
+	6500 4600 6500 4800
 $EndSCHEMATC

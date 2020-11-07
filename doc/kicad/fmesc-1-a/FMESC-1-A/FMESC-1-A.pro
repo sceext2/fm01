@@ -1,4 +1,4 @@
-update=2020年11月05日 星期四 23时22分57秒
+update=2020年11月07日 星期六 09时42分24秒
 version=1
 last_client=kicad
 [general]
@@ -57,7 +57,7 @@ CopperTextThickness=0.12
 CopperTextItalic=0
 CopperTextUpright=1
 EdgeCutLineWidth=1
-CourtyardLineWidth=0.16
+CourtyardLineWidth=0.05
 OthersLineWidth=0.16
 OthersTextSizeV=0.5
 OthersTextSizeH=1
@@ -194,18 +194,18 @@ Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
 Name=B.Cu
-Type=1
+Type=2
 Enabled=1
 [pcbnew/Layer.B.Adhes]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.Adhes]
 Enabled=1
 [pcbnew/Layer.B.Paste]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.Paste]
 Enabled=1
 [pcbnew/Layer.B.SilkS]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.SilkS]
 Enabled=1
 [pcbnew/Layer.B.Mask]
@@ -229,7 +229,7 @@ Enabled=1
 [pcbnew/Layer.F.CrtYd]
 Enabled=1
 [pcbnew/Layer.B.Fab]
-Enabled=0
+Enabled=1
 [pcbnew/Layer.F.Fab]
 Enabled=1
 [pcbnew/Layer.Rescue]
