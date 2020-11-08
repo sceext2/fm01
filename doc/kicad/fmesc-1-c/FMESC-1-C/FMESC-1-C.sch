@@ -530,17 +530,6 @@ Wire Wire Line
 	1700 5450 1850 5450
 Wire Wire Line
 	1700 5950 1850 5950
-$Comp
-L Connector_Generic:Conn_01x12 JC1
-U 1 1 5FAB3375
-P 3000 2000
-F 0 "JC1" H 2918 2717 50  0000 C CNN
-F 1 "Conn_01x12" H 2918 2626 50  0000 C CNN
-F 2 "fmlibf:JS_12P_1.0mm" H 3000 2000 50  0001 C CNN
-F 3 "~" H 3000 2000 50  0001 C CNN
-	1    3000 2000
-	-1   0    0    -1  
-$EndComp
 Text Label 4850 2200 2    50   ~ 0
 CAL1
 Text Label 4850 2300 2    50   ~ 0
@@ -553,28 +542,61 @@ Text Label 5350 1800 1    50   ~ 0
 CBH1
 Text Label 5250 1800 1    50   ~ 0
 CCH1
-Text Label 3200 1500 0    50   ~ 0
+$Comp
+L Connector_Generic:Conn_01x04 JC1
+U 1 1 5FA7FB06
+P 8500 2100
+F 0 "JC1" H 8580 2092 50  0000 L CNN
+F 1 "Conn_01x04" H 8580 2001 50  0000 L CNN
+F 2 "fmlibf:JS_4P_1.0mm" H 8500 2100 50  0001 C CNN
+F 3 "~" H 8500 2100 50  0001 C CNN
+	1    8500 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 JC2
+U 1 1 5FA7FF72
+P 8500 2600
+F 0 "JC2" H 8580 2592 50  0000 L CNN
+F 1 "Conn_01x04" H 8580 2501 50  0000 L CNN
+F 2 "fmlibf:JS_4P_1.0mm" H 8500 2600 50  0001 C CNN
+F 3 "~" H 8500 2600 50  0001 C CNN
+	1    8500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 JC3
+U 1 1 5FA80650
+P 8500 3100
+F 0 "JC3" H 8580 3092 50  0000 L CNN
+F 1 "Conn_01x04" H 8580 3001 50  0000 L CNN
+F 2 "fmlibf:JS_4P_1.0mm" H 8500 3100 50  0001 C CNN
+F 3 "~" H 8500 3100 50  0001 C CNN
+	1    8500 3100
+	1    0    0    -1  
+$EndComp
+Text Label 8300 2000 2    50   ~ 0
+GND
+Text Label 8300 2500 2    50   ~ 0
+GND
+Text Label 8300 3000 2    50   ~ 0
+GND
+Text Label 8300 2100 2    50   ~ 0
 CAL1
-Text Label 3200 1600 0    50   ~ 0
+Text Label 8300 2200 2    50   ~ 0
 CBL1
-Text Label 3200 1700 0    50   ~ 0
+Text Label 8300 2300 2    50   ~ 0
 CCL1
-Text Label 3200 1800 0    50   ~ 0
+Text Label 8300 2600 2    50   ~ 0
 CAH1
-Text Label 3200 1900 0    50   ~ 0
+Text Label 8300 2700 2    50   ~ 0
 CBH1
-Text Label 3200 2000 0    50   ~ 0
+Text Label 8300 2800 2    50   ~ 0
 CCH1
-Text Label 3200 2100 0    50   ~ 0
-GND
-Text Label 3200 2200 0    50   ~ 0
+Text Label 8300 3100 2    50   ~ 0
 A1
-Text Label 3200 2300 0    50   ~ 0
+Text Label 8300 3200 2    50   ~ 0
 B1
-Text Label 3200 2400 0    50   ~ 0
+Text Label 8300 3300 2    50   ~ 0
 C1
-Text Label 3200 2500 0    50   ~ 0
-GND
-Text Label 3200 2600 0    50   ~ 0
-VC
 $EndSCHEMATC
