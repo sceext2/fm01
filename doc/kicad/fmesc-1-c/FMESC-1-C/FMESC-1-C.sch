@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "FMESC-1-C"
-Date "2020-11-08"
-Rev "TODO"
+Date "2020-11-09"
+Rev "v0.1"
 Comp "sceext"
 Comment1 ""
 Comment2 ""
@@ -340,7 +340,7 @@ AR Path="/5FA3F05C/5FAA6E29" Ref="D?"  Part="1"
 AR Path="/5FAA6E29" Ref="D1"  Part="1" 
 F 0 "D1" V 6546 1070 50  0000 R CNN
 F 1 "D" V 6455 1070 50  0000 R CNN
-F 2 "Diode_SMD:D_SMA" H 6500 1150 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 6500 1150 50  0001 C CNN
 F 3 "~" H 6500 1150 50  0001 C CNN
 	1    6500 1150
 	0    -1   -1   0   
@@ -359,7 +359,7 @@ AR Path="/5FA3F05C/5FAA6E2F" Ref="D?"  Part="1"
 AR Path="/5FAA6E2F" Ref="D2"  Part="1" 
 F 0 "D2" V 7046 1070 50  0000 R CNN
 F 1 "D" V 6955 1070 50  0000 R CNN
-F 2 "Diode_SMD:D_SMA" H 7000 1150 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 7000 1150 50  0001 C CNN
 F 3 "~" H 7000 1150 50  0001 C CNN
 	1    7000 1150
 	0    -1   -1   0   
@@ -378,7 +378,7 @@ AR Path="/5FA3F05C/5FAA6E35" Ref="D?"  Part="1"
 AR Path="/5FAA6E35" Ref="D3"  Part="1" 
 F 0 "D3" V 7546 1070 50  0000 R CNN
 F 1 "D" V 7455 1070 50  0000 R CNN
-F 2 "Diode_SMD:D_SMA" H 7500 1150 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 7500 1150 50  0001 C CNN
 F 3 "~" H 7500 1150 50  0001 C CNN
 	1    7500 1150
 	0    -1   -1   0   
