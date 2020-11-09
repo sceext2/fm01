@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
 Title "FMESC-1-A"
-Date "2020-11-08"
-Rev "v0.1"
+Date "2020-11-10"
+Rev "v0.2"
 Comp "sceext"
 Comment1 ""
 Comment2 ""
@@ -109,4 +109,51 @@ U 5FA1845D
 F0 "M1" 50
 F1 "M1.sch" 50
 $EndSheet
+Text Label 1800 1500 2    50   ~ 0
+VB
+Text Label 1800 2000 2    50   ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_01x02 JT1
+U 1 1 5FA970C0
+P 1000 3000
+F 0 "JT1" H 918 3217 50  0000 C CNN
+F 1 "Conn_01x02" H 918 3126 50  0000 C CNN
+F 2 "fmlibf:JS_2P_1.0mm" H 1000 3000 50  0001 C CNN
+F 3 "~" H 1000 3000 50  0001 C CNN
+	1    1000 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 JT2
+U 1 1 5FA97479
+P 1000 3500
+F 0 "JT2" H 918 3717 50  0000 C CNN
+F 1 "Conn_01x02" H 918 3626 50  0000 C CNN
+F 2 "fmlibf:JS_2P_1.0mm" H 1000 3500 50  0001 C CNN
+F 3 "~" H 1000 3500 50  0001 C CNN
+	1    1000 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 JT3
+U 1 1 5FA975FC
+P 1000 4000
+F 0 "JT3" H 918 4217 50  0000 C CNN
+F 1 "Conn_01x02" H 918 4126 50  0000 C CNN
+F 2 "fmlibf:JS_2P_1.0mm" H 1000 4000 50  0001 C CNN
+F 3 "~" H 1000 4000 50  0001 C CNN
+	1    1000 4000
+	-1   0    0    -1  
+$EndComp
+Text Label 1200 3500 0    50   ~ 0
+GND
+Text Label 1200 3600 0    50   ~ 0
+GND
+Text Label 1200 4000 0    50   ~ 0
+VB
+Text Label 1200 4100 0    50   ~ 0
+VB
+NoConn ~ 1200 3000
+NoConn ~ 1200 3100
 $EndSCHEMATC

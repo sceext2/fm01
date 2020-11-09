@@ -22,7 +22,7 @@
 | 9 | 最小过孔与线间距 | 0.25mm |
 | 10 | 最小非金属化槽宽度 | 0.8mm |
 
-推荐加工厂: [捷配](https://www.jiepei.com/)
+推荐加工厂: [嘉立创](https://www.jlc.com/) [捷配](https://www.jiepei.com/)
 
 
 ## 元件清单
