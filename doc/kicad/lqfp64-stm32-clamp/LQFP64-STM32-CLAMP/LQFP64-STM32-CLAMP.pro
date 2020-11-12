@@ -1,4 +1,4 @@
-update=2020年11月08日 星期日 12时07分57秒
+update=2020年11月13日 星期五 02时12分08秒
 version=1
 last_client=kicad
 [general]
@@ -27,7 +27,7 @@ version=1
 PageLayoutDescrFile=
 LastNetListRead=
 CopperLayerCount=2
-BoardThickness=1
+BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
@@ -67,7 +67,7 @@ CopperTextSizeH=0.5
 CopperTextThickness=0.12
 CopperTextItalic=0
 CopperTextUpright=1
-EdgeCutLineWidth=1
+EdgeCutLineWidth=0.2
 CourtyardLineWidth=0.05
 OthersLineWidth=0.16
 OthersTextSizeV=0.5
