@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 5
 Title "FMESC-1-A  M1"
-Date "2020-11-08"
-Rev "v0.1"
+Date "2020-11-14"
+Rev "v0.3"
 Comp "sceext"
 Comment1 ""
 Comment2 ""
@@ -446,7 +446,7 @@ AR Path="/5FA3EBFA/5FA80AC7" Ref="J14"  Part="1"
 AR Path="/5FA3F05C/5FA80AC7" Ref="J20"  Part="1" 
 F 0 "J2" H 1418 4725 50  0000 C CNN
 F 1 "Conn_01x02" H 1418 4816 50  0000 C CNN
-F 2 "fmlibf:JS_2P_1.0mm" H 1500 5050 50  0001 C CNN
+F 2 "fmlibf:JS_2P_1.0mm_F" H 1500 5050 50  0001 C CNN
 F 3 "~" H 1500 5050 50  0001 C CNN
 	1    1500 5050
 	-1   0    0    1   
@@ -461,7 +461,7 @@ AR Path="/5FA3EBFA/5FA8AB34" Ref="J13"  Part="1"
 AR Path="/5FA3F05C/5FA8AB34" Ref="J19"  Part="1" 
 F 0 "J1" H 1418 5225 50  0000 C CNN
 F 1 "Conn_01x02" H 1418 5316 50  0000 C CNN
-F 2 "fmlibf:JS_2P_1.0mm" H 1500 5550 50  0001 C CNN
+F 2 "fmlibf:JS_2P_1.0mm_F" H 1500 5550 50  0001 C CNN
 F 3 "~" H 1500 5550 50  0001 C CNN
 	1    1500 5550
 	-1   0    0    1   
@@ -497,7 +497,7 @@ AR Path="/5FA3EBFA/5FA8E220" Ref="J16"  Part="1"
 AR Path="/5FA3F05C/5FA8E220" Ref="J22"  Part="1" 
 F 0 "J4" H 3918 4725 50  0000 C CNN
 F 1 "Conn_01x02" H 3918 4816 50  0000 C CNN
-F 2 "fmlibf:JS_2P_1.0mm" H 4000 5050 50  0001 C CNN
+F 2 "fmlibf:JS_2P_1.0mm_F" H 4000 5050 50  0001 C CNN
 F 3 "~" H 4000 5050 50  0001 C CNN
 	1    4000 5050
 	-1   0    0    1   
@@ -512,7 +512,7 @@ AR Path="/5FA3EBFA/5FA8E226" Ref="J15"  Part="1"
 AR Path="/5FA3F05C/5FA8E226" Ref="J21"  Part="1" 
 F 0 "J3" H 3918 5225 50  0000 C CNN
 F 1 "Conn_01x02" H 3918 5316 50  0000 C CNN
-F 2 "fmlibf:JS_2P_1.0mm" H 4000 5550 50  0001 C CNN
+F 2 "fmlibf:JS_2P_1.0mm_F" H 4000 5550 50  0001 C CNN
 F 3 "~" H 4000 5550 50  0001 C CNN
 	1    4000 5550
 	-1   0    0    1   
@@ -548,7 +548,7 @@ AR Path="/5FA3EBFA/5FA8EDC1" Ref="J18"  Part="1"
 AR Path="/5FA3F05C/5FA8EDC1" Ref="J24"  Part="1" 
 F 0 "J6" H 6418 4725 50  0000 C CNN
 F 1 "Conn_01x02" H 6418 4816 50  0000 C CNN
-F 2 "fmlibf:JS_2P_1.0mm" H 6500 5050 50  0001 C CNN
+F 2 "fmlibf:JS_2P_1.0mm_F" H 6500 5050 50  0001 C CNN
 F 3 "~" H 6500 5050 50  0001 C CNN
 	1    6500 5050
 	-1   0    0    1   
@@ -563,7 +563,7 @@ AR Path="/5FA3EBFA/5FA8EDC7" Ref="J17"  Part="1"
 AR Path="/5FA3F05C/5FA8EDC7" Ref="J23"  Part="1" 
 F 0 "J5" H 6418 5225 50  0000 C CNN
 F 1 "Conn_01x02" H 6418 5316 50  0000 C CNN
-F 2 "fmlibf:JS_2P_1.0mm" H 6500 5550 50  0001 C CNN
+F 2 "fmlibf:JS_2P_1.0mm_F" H 6500 5550 50  0001 C CNN
 F 3 "~" H 6500 5550 50  0001 C CNN
 	1    6500 5550
 	-1   0    0    1   

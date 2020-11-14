@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 5
 Title "FMESC-1-A"
-Date "2020-11-10"
-Rev "v0.2"
+Date "2020-11-14"
+Rev "v0.3"
 Comp "sceext"
 Comment1 ""
 Comment2 ""
@@ -119,7 +119,7 @@ U 1 1 5FA970C0
 P 1000 3000
 F 0 "JT1" H 918 3217 50  0000 C CNN
 F 1 "Conn_01x02" H 918 3126 50  0000 C CNN
-F 2 "fmlibf:JS_2P_1.0mm" H 1000 3000 50  0001 C CNN
+F 2 "fmlibf:JS_2P_1.0mm_F" H 1000 3000 50  0001 C CNN
 F 3 "~" H 1000 3000 50  0001 C CNN
 	1    1000 3000
 	-1   0    0    -1  
@@ -130,7 +130,7 @@ U 1 1 5FA97479
 P 1000 3500
 F 0 "JT2" H 918 3717 50  0000 C CNN
 F 1 "Conn_01x02" H 918 3626 50  0000 C CNN
-F 2 "fmlibf:JS_2P_1.0mm" H 1000 3500 50  0001 C CNN
+F 2 "fmlibf:JS_2P_1.0mm_F" H 1000 3500 50  0001 C CNN
 F 3 "~" H 1000 3500 50  0001 C CNN
 	1    1000 3500
 	-1   0    0    -1  
@@ -141,7 +141,7 @@ U 1 1 5FA975FC
 P 1000 4000
 F 0 "JT3" H 918 4217 50  0000 C CNN
 F 1 "Conn_01x02" H 918 4126 50  0000 C CNN
-F 2 "fmlibf:JS_2P_1.0mm" H 1000 4000 50  0001 C CNN
+F 2 "fmlibf:JS_2P_1.0mm_F" H 1000 4000 50  0001 C CNN
 F 3 "~" H 1000 4000 50  0001 C CNN
 	1    1000 4000
 	-1   0    0    -1  
