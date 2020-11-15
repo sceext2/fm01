@@ -1,6 +1,6 @@
 # FMESC-1-C
 
-胖蚊子电调 (FMESC-1) MOS 驱动小板.  与 [FMESC-1-A](../fmesc-1-a/) 配合使用.
+胖蚊子电调 (FMESC-1) MOS 驱动小板.  与 [FMESC-1-A](../fmesc-1-a/), [FMESC-1-B](../fmesc-1-b/) 配合使用.
 
 + 设计电池电压: 2s ~ 4s  (6.6V ~ 16.8V)
 

@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "FMESC-1-C"
-Date "2020-11-09"
-Rev "v0.1"
+Date "2020-11-15"
+Rev "v0.2"
 Comp "sceext"
 Comment1 ""
 Comment2 ""
@@ -199,7 +199,7 @@ AR Path="/5FA3F05C/5FAA6DF6" Ref="U?"  Part="1"
 AR Path="/5FAA6DF6" Ref="U1"  Part="1" 
 F 0 "U1" H 5450 2500 50  0000 L CNN
 F 1 "FD6288Q" H 5350 2250 50  0000 L CNN
-F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm" H 5500 1600 50  0001 C CNN
+F 2 "fmlibf:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_nopad" H 5500 1600 50  0001 C CNN
 F 3 "" H 4950 2700 50  0001 C CNN
 	1    5500 2450
 	1    0    0    -1  
@@ -426,7 +426,7 @@ U 1 1 5FA76D48
 P 1500 3550
 F 0 "J1" H 1418 3225 50  0000 C CNN
 F 1 "Conn_01x02" H 1418 3316 50  0000 C CNN
-F 2 "fmlibf:JT_2P_1.0mm" H 1500 3550 50  0001 C CNN
+F 2 "fmlibf:JS_2P_1.0mm_2" H 1500 3550 50  0001 C CNN
 F 3 "~" H 1500 3550 50  0001 C CNN
 	1    1500 3550
 	-1   0    0    1   
@@ -437,7 +437,7 @@ U 1 1 5FA78031
 P 1500 4050
 F 0 "J2" H 1418 3725 50  0000 C CNN
 F 1 "Conn_01x02" H 1418 3816 50  0000 C CNN
-F 2 "fmlibf:JT_2P_1.0mm" H 1500 4050 50  0001 C CNN
+F 2 "fmlibf:JS_2P_1.0mm_2" H 1500 4050 50  0001 C CNN
 F 3 "~" H 1500 4050 50  0001 C CNN
 	1    1500 4050
 	-1   0    0    1   
@@ -448,7 +448,7 @@ U 1 1 5FA782AA
 P 1500 4550
 F 0 "J3" H 1418 4225 50  0000 C CNN
 F 1 "Conn_01x02" H 1418 4316 50  0000 C CNN
-F 2 "fmlibf:JT_2P_1.0mm" H 1500 4550 50  0001 C CNN
+F 2 "fmlibf:JS_2P_1.0mm_2" H 1500 4550 50  0001 C CNN
 F 3 "~" H 1500 4550 50  0001 C CNN
 	1    1500 4550
 	-1   0    0    1   
@@ -459,7 +459,7 @@ U 1 1 5FA78506
 P 1500 5050
 F 0 "J4" H 1418 4725 50  0000 C CNN
 F 1 "Conn_01x02" H 1418 4816 50  0000 C CNN
-F 2 "fmlibf:JT_2P_1.0mm" H 1500 5050 50  0001 C CNN
+F 2 "fmlibf:JS_2P_1.0mm_2" H 1500 5050 50  0001 C CNN
 F 3 "~" H 1500 5050 50  0001 C CNN
 	1    1500 5050
 	-1   0    0    1   
@@ -470,7 +470,7 @@ U 1 1 5FA78754
 P 1500 5550
 F 0 "J5" H 1418 5225 50  0000 C CNN
 F 1 "Conn_01x02" H 1418 5316 50  0000 C CNN
-F 2 "fmlibf:JT_2P_1.0mm" H 1500 5550 50  0001 C CNN
+F 2 "fmlibf:JS_2P_1.0mm_2" H 1500 5550 50  0001 C CNN
 F 3 "~" H 1500 5550 50  0001 C CNN
 	1    1500 5550
 	-1   0    0    1   
@@ -481,7 +481,7 @@ U 1 1 5FA78A0C
 P 1500 6050
 F 0 "J6" H 1418 5725 50  0000 C CNN
 F 1 "Conn_01x02" H 1418 5816 50  0000 C CNN
-F 2 "fmlibf:JT_2P_1.0mm" H 1500 6050 50  0001 C CNN
+F 2 "fmlibf:JS_2P_1.0mm_2" H 1500 6050 50  0001 C CNN
 F 3 "~" H 1500 6050 50  0001 C CNN
 	1    1500 6050
 	-1   0    0    1   
@@ -579,8 +579,6 @@ Text Label 8300 2000 2    50   ~ 0
 GND
 Text Label 8300 2500 2    50   ~ 0
 GND
-Text Label 8300 3000 2    50   ~ 0
-GND
 Text Label 8300 2100 2    50   ~ 0
 CAL1
 Text Label 8300 2200 2    50   ~ 0
@@ -593,10 +591,221 @@ Text Label 8300 2700 2    50   ~ 0
 CBH1
 Text Label 8300 2800 2    50   ~ 0
 CCH1
-Text Label 8300 3100 2    50   ~ 0
+$Comp
+L Device:R R?
+U 1 1 5FB18250
+P 7150 4000
+AR Path="/5FA1845D/5FB18250" Ref="R?"  Part="1" 
+AR Path="/5FA433EC/5FB18250" Ref="R?"  Part="1" 
+AR Path="/5FA435C0/5FB18250" Ref="R?"  Part="1" 
+AR Path="/5FA4361C/5FB18250" Ref="R?"  Part="1" 
+AR Path="/5FA3E74F/5FB18250" Ref="R?"  Part="1" 
+AR Path="/5FA3EBFA/5FB18250" Ref="R?"  Part="1" 
+AR Path="/5FA3F05C/5FB18250" Ref="R?"  Part="1" 
+AR Path="/5FB18250" Ref="R12"  Part="1" 
+F 0 "R12" V 6943 4000 50  0000 C CNN
+F 1 "20k" V 7034 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7080 4000 50  0001 C CNN
+F 3 "~" H 7150 4000 50  0001 C CNN
+	1    7150 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB18793
+P 7150 4500
+AR Path="/5FA1845D/5FB18793" Ref="R?"  Part="1" 
+AR Path="/5FA433EC/5FB18793" Ref="R?"  Part="1" 
+AR Path="/5FA435C0/5FB18793" Ref="R?"  Part="1" 
+AR Path="/5FA4361C/5FB18793" Ref="R?"  Part="1" 
+AR Path="/5FA3E74F/5FB18793" Ref="R?"  Part="1" 
+AR Path="/5FA3EBFA/5FB18793" Ref="R?"  Part="1" 
+AR Path="/5FA3F05C/5FB18793" Ref="R?"  Part="1" 
+AR Path="/5FB18793" Ref="R14"  Part="1" 
+F 0 "R14" V 6943 4500 50  0000 C CNN
+F 1 "20k" V 7034 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7080 4500 50  0001 C CNN
+F 3 "~" H 7150 4500 50  0001 C CNN
+	1    7150 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB18A77
+P 7150 5000
+AR Path="/5FA1845D/5FB18A77" Ref="R?"  Part="1" 
+AR Path="/5FA433EC/5FB18A77" Ref="R?"  Part="1" 
+AR Path="/5FA435C0/5FB18A77" Ref="R?"  Part="1" 
+AR Path="/5FA4361C/5FB18A77" Ref="R?"  Part="1" 
+AR Path="/5FA3E74F/5FB18A77" Ref="R?"  Part="1" 
+AR Path="/5FA3EBFA/5FB18A77" Ref="R?"  Part="1" 
+AR Path="/5FA3F05C/5FB18A77" Ref="R?"  Part="1" 
+AR Path="/5FB18A77" Ref="R16"  Part="1" 
+F 0 "R16" V 6943 5000 50  0000 C CNN
+F 1 "20k" V 7034 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7080 5000 50  0001 C CNN
+F 3 "~" H 7150 5000 50  0001 C CNN
+	1    7150 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB18F67
+P 7850 4000
+AR Path="/5FA1845D/5FB18F67" Ref="R?"  Part="1" 
+AR Path="/5FA433EC/5FB18F67" Ref="R?"  Part="1" 
+AR Path="/5FA435C0/5FB18F67" Ref="R?"  Part="1" 
+AR Path="/5FA4361C/5FB18F67" Ref="R?"  Part="1" 
+AR Path="/5FA3E74F/5FB18F67" Ref="R?"  Part="1" 
+AR Path="/5FA3EBFA/5FB18F67" Ref="R?"  Part="1" 
+AR Path="/5FA3F05C/5FB18F67" Ref="R?"  Part="1" 
+AR Path="/5FB18F67" Ref="R11"  Part="1" 
+F 0 "R11" V 7643 4000 50  0000 C CNN
+F 1 "2k" V 7734 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7780 4000 50  0001 C CNN
+F 3 "~" H 7850 4000 50  0001 C CNN
+	1    7850 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB19325
+P 7850 4500
+AR Path="/5FA1845D/5FB19325" Ref="R?"  Part="1" 
+AR Path="/5FA433EC/5FB19325" Ref="R?"  Part="1" 
+AR Path="/5FA435C0/5FB19325" Ref="R?"  Part="1" 
+AR Path="/5FA4361C/5FB19325" Ref="R?"  Part="1" 
+AR Path="/5FA3E74F/5FB19325" Ref="R?"  Part="1" 
+AR Path="/5FA3EBFA/5FB19325" Ref="R?"  Part="1" 
+AR Path="/5FA3F05C/5FB19325" Ref="R?"  Part="1" 
+AR Path="/5FB19325" Ref="R13"  Part="1" 
+F 0 "R13" V 7643 4500 50  0000 C CNN
+F 1 "2k" V 7734 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7780 4500 50  0001 C CNN
+F 3 "~" H 7850 4500 50  0001 C CNN
+	1    7850 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB196E5
+P 7850 5000
+AR Path="/5FA1845D/5FB196E5" Ref="R?"  Part="1" 
+AR Path="/5FA433EC/5FB196E5" Ref="R?"  Part="1" 
+AR Path="/5FA435C0/5FB196E5" Ref="R?"  Part="1" 
+AR Path="/5FA4361C/5FB196E5" Ref="R?"  Part="1" 
+AR Path="/5FA3E74F/5FB196E5" Ref="R?"  Part="1" 
+AR Path="/5FA3EBFA/5FB196E5" Ref="R?"  Part="1" 
+AR Path="/5FA3F05C/5FB196E5" Ref="R?"  Part="1" 
+AR Path="/5FB196E5" Ref="R15"  Part="1" 
+F 0 "R15" V 7643 5000 50  0000 C CNN
+F 1 "2k" V 7734 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7780 5000 50  0001 C CNN
+F 3 "~" H 7850 5000 50  0001 C CNN
+	1    7850 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7300 4000 7700 4000
+Wire Wire Line
+	7300 4500 7700 4500
+Wire Wire Line
+	7300 5000 7700 5000
+Wire Wire Line
+	8000 4000 8000 4500
+Connection ~ 8000 4500
+Wire Wire Line
+	8000 4500 8000 5000
+Text Label 8000 4500 0    50   ~ 0
+GND
+Text Label 7000 4000 2    50   ~ 0
 A1
-Text Label 8300 3200 2    50   ~ 0
+Text Label 7000 4500 2    50   ~ 0
 B1
-Text Label 8300 3300 2    50   ~ 0
+Text Label 7000 5000 2    50   ~ 0
 C1
+Text Label 7500 4000 0    50   ~ 0
+SA
+Text Label 7500 4500 0    50   ~ 0
+SB
+Text Label 7500 5000 0    50   ~ 0
+SC
+Text Label 8300 3000 2    50   ~ 0
+S0
+Text Label 8300 3100 2    50   ~ 0
+SA
+Text Label 8300 3200 2    50   ~ 0
+SB
+Text Label 8300 3300 2    50   ~ 0
+SC
+$Comp
+L Device:R R?
+U 1 1 5FB20F21
+P 8650 4000
+AR Path="/5FA1845D/5FB20F21" Ref="R?"  Part="1" 
+AR Path="/5FA433EC/5FB20F21" Ref="R?"  Part="1" 
+AR Path="/5FA435C0/5FB20F21" Ref="R?"  Part="1" 
+AR Path="/5FA4361C/5FB20F21" Ref="R?"  Part="1" 
+AR Path="/5FA3E74F/5FB20F21" Ref="R?"  Part="1" 
+AR Path="/5FA3EBFA/5FB20F21" Ref="R?"  Part="1" 
+AR Path="/5FA3F05C/5FB20F21" Ref="R?"  Part="1" 
+AR Path="/5FB20F21" Ref="R21"  Part="1" 
+F 0 "R21" V 8443 4000 50  0000 C CNN
+F 1 "2k" V 8534 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8580 4000 50  0001 C CNN
+F 3 "~" H 8650 4000 50  0001 C CNN
+	1    8650 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB2128F
+P 8650 4500
+AR Path="/5FA1845D/5FB2128F" Ref="R?"  Part="1" 
+AR Path="/5FA433EC/5FB2128F" Ref="R?"  Part="1" 
+AR Path="/5FA435C0/5FB2128F" Ref="R?"  Part="1" 
+AR Path="/5FA4361C/5FB2128F" Ref="R?"  Part="1" 
+AR Path="/5FA3E74F/5FB2128F" Ref="R?"  Part="1" 
+AR Path="/5FA3EBFA/5FB2128F" Ref="R?"  Part="1" 
+AR Path="/5FA3F05C/5FB2128F" Ref="R?"  Part="1" 
+AR Path="/5FB2128F" Ref="R22"  Part="1" 
+F 0 "R22" V 8443 4500 50  0000 C CNN
+F 1 "2k" V 8534 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8580 4500 50  0001 C CNN
+F 3 "~" H 8650 4500 50  0001 C CNN
+	1    8650 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB21566
+P 8650 5000
+AR Path="/5FA1845D/5FB21566" Ref="R?"  Part="1" 
+AR Path="/5FA433EC/5FB21566" Ref="R?"  Part="1" 
+AR Path="/5FA435C0/5FB21566" Ref="R?"  Part="1" 
+AR Path="/5FA4361C/5FB21566" Ref="R?"  Part="1" 
+AR Path="/5FA3E74F/5FB21566" Ref="R?"  Part="1" 
+AR Path="/5FA3EBFA/5FB21566" Ref="R?"  Part="1" 
+AR Path="/5FA3F05C/5FB21566" Ref="R?"  Part="1" 
+AR Path="/5FB21566" Ref="R23"  Part="1" 
+F 0 "R23" V 8443 5000 50  0000 C CNN
+F 1 "2k" V 8534 5000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8580 5000 50  0001 C CNN
+F 3 "~" H 8650 5000 50  0001 C CNN
+	1    8650 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8800 4000 8800 4500
+Connection ~ 8800 4500
+Wire Wire Line
+	8800 4500 8800 5000
+Text Label 8800 4500 0    50   ~ 0
+S0
+Text Label 8500 4000 2    50   ~ 0
+SA
+Text Label 8500 4500 2    50   ~ 0
+SB
+Text Label 8500 5000 2    50   ~ 0
+SC
 $EndSCHEMATC
