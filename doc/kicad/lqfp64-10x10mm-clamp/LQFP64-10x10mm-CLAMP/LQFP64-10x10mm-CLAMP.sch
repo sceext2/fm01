@@ -607,4 +607,17 @@ F 3 "" H 8700 2650 50  0001 C CNN
 	1    9650 1850
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J10
+U 1 1 5FB0CC0B
+P 6500 1300
+F 0 "J10" V 6650 1200 50  0000 R CNN
+F 1 "Conn_01x01" V 6550 1200 50  0000 R CNN
+F 2 "fmlibf:JS_2x2mm" H 6500 1300 50  0001 C CNN
+F 3 "~" H 6500 1300 50  0001 C CNN
+	1    6500 1300
+	0    -1   -1   0   
+$EndComp
+Text Label 6500 1500 0    50   ~ 0
+GND
 $EndSCHEMATC
