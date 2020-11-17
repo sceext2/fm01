@@ -1,0 +1,10 @@
+(module JS4x5mm (layer F.Cu) (tedit 5FA3E633)
+  (attr smd)
+  (fp_text reference REF** (at 0 3) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value JS4x5mm (at 0 -2.9) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at 0 0) (size 5 4) (layers F.Cu F.Paste F.Mask))
+)
