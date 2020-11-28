@@ -154,6 +154,8 @@ Text Label 1200 4000 0    50   ~ 0
 VB
 Text Label 1200 4100 0    50   ~ 0
 VB
-NoConn ~ 1200 3000
-NoConn ~ 1200 3100
+Text Label 1200 3000 0    50   ~ 0
+GND
+Text Label 1200 3100 0    50   ~ 0
+GND
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-(module JS-JB0 (layer F.Cu) (tedit 5FA78530)
+(module JS-JB0 (layer F.Cu) (tedit 5FC298CE)
   (attr smd)
   (fp_text reference REF** (at 0 2.6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -6,5 +6,5 @@
   (fp_text value JS-JB0 (at 0 -2.5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 1 smd rect (at 0 0) (size 13 3) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 0 0) (size 11 3) (layers F.Cu F.Paste F.Mask))
 )
