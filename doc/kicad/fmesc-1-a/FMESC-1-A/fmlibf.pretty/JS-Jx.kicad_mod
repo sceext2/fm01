@@ -1,10 +1,10 @@
-(module JS3x10mm (layer F.Cu) (tedit 5FA61219)
+(module JS-Jx (layer F.Cu) (tedit 5FA77A50)
   (attr smd)
   (fp_text reference REF** (at 0 2.6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value JS3x10mm (at 0 -2.5) (layer F.Fab) hide
+  (fp_text value JS-Jx (at 0 -2.5) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 1 smd rect (at 0 0) (size 10 3) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 0 0) (size 3.5 3) (layers F.Cu F.Paste F.Mask))
 )
