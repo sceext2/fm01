@@ -1,6 +1,7 @@
 # FMESC-1-C
 
-胖蚊子电调 (FMESC-1) MOS 驱动小板.  与 [FMESC-1-A](../fmesc-1-a/), [FMESC-1-B](../fmesc-1-b/) 配合使用.
+胖蚊子电调 (FMESC-1) MOS 驱动小板.
+与 [FMESC-1-A](../fmesc-1-a/), `FMC-1` 配合使用.
 
 + 设计电池电压: 2s ~ 4s  (6.6V ~ 16.8V)
 
@@ -22,7 +23,7 @@
 | 9 | 最小过孔与线间距 | 0.25mm |
 | 10 | 最小非金属化槽宽度 | 0.8mm |
 
-推荐加工厂: [嘉立创](https://www.jlc.com/) [捷配](https://www.jiepei.com/)
+推荐加工厂: [嘉立创](https://www.jlc.com/), [捷配](https://www.jiepei.com/)
 
 
 ## 元件清单
@@ -36,6 +37,11 @@
 | 总计 | 14 | 4 | 4 | 14 | 3.1 |
 
 注: 价格仅供参考.
+
+
+## 飞线
+
+TODO
 
 
 ## 接口引脚说明
