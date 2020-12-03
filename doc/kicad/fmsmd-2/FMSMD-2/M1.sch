@@ -1,0 +1,439 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title "FMSMD-2/M1"
+Date "2020-12-03"
+Rev "v0.1"
+Comp "sceext"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_NMOS_DSG Q1
+U 1 1 5FC90DF9
+P 10000 2000
+F 0 "Q1" H 10204 2046 50  0000 L CNN
+F 1 "AON6504" H 10204 1955 50  0000 L CNN
+F 2 "fmlibf:DFN5x6_8L_EP1_P" H 10200 2100 50  0001 C CNN
+F 3 "~" H 10000 2000 50  0001 C CNN
+	1    10000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JQD1
+U 1 1 5FC914BE
+P 10100 1600
+F 0 "JQD1" V 10064 1512 50  0000 R CNN
+F 1 "Conn_01x01" V 9973 1512 50  0000 R CNN
+F 2 "fmlibf:JS-Jx" H 10100 1600 50  0001 C CNN
+F 3 "~" H 10100 1600 50  0001 C CNN
+	1    10100 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JQG1
+U 1 1 5FC916D7
+P 9600 2000
+F 0 "JQG1" H 9518 1775 50  0000 C CNN
+F 1 "Conn_01x01" H 9518 1866 50  0000 C CNN
+F 2 "fmlibf:JS-1x1mm" H 9600 2000 50  0001 C CNN
+F 3 "~" H 9600 2000 50  0001 C CNN
+	1    9600 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JQS1
+U 1 1 5FC91989
+P 10100 2400
+F 0 "JQS1" V 9972 2480 50  0000 L CNN
+F 1 "Conn_01x01" V 10063 2480 50  0000 L CNN
+F 2 "fmlibf:JS-JBx" H 10100 2400 50  0001 C CNN
+F 3 "~" H 10100 2400 50  0001 C CNN
+	1    10100 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x12 JC1
+U 1 1 5FC92824
+P 1500 2000
+F 0 "JC1" H 1418 2717 50  0000 C CNN
+F 1 "Conn_01x12" H 1418 2626 50  0000 C CNN
+F 2 "fmlibf:JS_12P_1.0mm" H 1500 2000 50  0001 C CNN
+F 3 "~" H 1500 2000 50  0001 C CNN
+	1    1500 2000
+	-1   0    0    -1  
+$EndComp
+Text Label 1700 1500 0    50   ~ 0
+GND
+Text Label 1700 1600 0    50   ~ 0
+VIS
+Text Label 1700 1700 0    50   ~ 0
+NSLEEP
+Text Label 1700 1800 0    50   ~ 0
+GND
+Text Label 1700 1900 0    50   ~ 0
+A1
+Text Label 1700 2000 0    50   ~ 0
+A2
+Text Label 1700 2100 0    50   ~ 0
+B2
+Text Label 1700 2200 0    50   ~ 0
+B1
+Text Label 1700 2300 0    50   ~ 0
+GND
+Text Label 1700 2400 0    50   ~ 0
+NFAULT
+Text Label 1700 2500 0    50   ~ 0
+3V3
+Text Label 1700 2600 0    50   ~ 0
+GND
+$Comp
+L Connector_Generic:Conn_01x01 JVM1
+U 1 1 5FC941CB
+P 1500 3500
+F 0 "JVM1" H 1418 3275 50  0000 C CNN
+F 1 "Conn_01x01" H 1418 3366 50  0000 C CNN
+F 2 "fmlibf:JS-1x1mm" H 1500 3500 50  0001 C CNN
+F 3 "~" H 1500 3500 50  0001 C CNN
+	1    1500 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JG1
+U 1 1 5FC948B3
+P 1500 4000
+F 0 "JG1" H 1418 3775 50  0000 C CNN
+F 1 "Conn_01x01" H 1418 3866 50  0000 C CNN
+F 2 "fmlibf:JS-1x1mm" H 1500 4000 50  0001 C CNN
+F 3 "~" H 1500 4000 50  0001 C CNN
+	1    1500 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JAO11
+U 1 1 5FC94A4C
+P 1500 4500
+F 0 "JAO11" H 1418 4275 50  0000 C CNN
+F 1 "Conn_01x01" H 1418 4366 50  0000 C CNN
+F 2 "fmlibf:JS-1x1mm" H 1500 4500 50  0001 C CNN
+F 3 "~" H 1500 4500 50  0001 C CNN
+	1    1500 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JAO12
+U 1 1 5FC94BBD
+P 1500 5000
+F 0 "JAO12" H 1418 4775 50  0000 C CNN
+F 1 "Conn_01x01" H 1418 4866 50  0000 C CNN
+F 2 "fmlibf:JS-1x1mm" H 1500 5000 50  0001 C CNN
+F 3 "~" H 1500 5000 50  0001 C CNN
+	1    1500 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JBO12
+U 1 1 5FC94DDC
+P 1500 5500
+F 0 "JBO12" H 1418 5275 50  0000 C CNN
+F 1 "Conn_01x01" H 1418 5366 50  0000 C CNN
+F 2 "fmlibf:JS-1x1mm" H 1500 5500 50  0001 C CNN
+F 3 "~" H 1500 5500 50  0001 C CNN
+	1    1500 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JBO11
+U 1 1 5FC94FCF
+P 1500 6000
+F 0 "JBO11" H 1418 5775 50  0000 C CNN
+F 1 "Conn_01x01" H 1418 5866 50  0000 C CNN
+F 2 "fmlibf:JS-1x1mm" H 1500 6000 50  0001 C CNN
+F 3 "~" H 1500 6000 50  0001 C CNN
+	1    1500 6000
+	-1   0    0    1   
+$EndComp
+Text Label 1700 3500 0    50   ~ 0
+VM
+Text Label 1700 4000 0    50   ~ 0
+GND
+Text Label 1700 4500 0    50   ~ 0
+AO1
+Text Label 1700 5000 0    50   ~ 0
+AO2
+Text Label 1700 5500 0    50   ~ 0
+BO2
+Text Label 1700 6000 0    50   ~ 0
+BO1
+$Comp
+L fmlibs:HR8833MTE U1
+U 1 1 5FC8FFEB
+P 5000 2000
+F 0 "U1" H 4750 1550 50  0001 C CNN
+F 1 "HR8833MTE" H 5000 2483 50  0000 C CNN
+F 2 "fmlibf:HTSSOP-16-1EP_4.4x5mm_P0.65mm_EP3x3mm" H 5000 2650 50  0001 C CNN
+F 3 "" H 4600 2350 50  0001 C CNN
+	1    5000 2000
+	1    0    0    -1  
+$EndComp
+Text Label 5400 1950 0    50   ~ 0
+GND
+Text Label 5050 2500 0    50   ~ 0
+GND
+Text Label 4600 1650 2    50   ~ 0
+NSLEEP
+Text Label 5400 1650 0    50   ~ 0
+A1
+Text Label 5400 1750 0    50   ~ 0
+A2
+Text Label 5400 2250 0    50   ~ 0
+B2
+Text Label 5400 2350 0    50   ~ 0
+B1
+Text Label 5400 2050 0    50   ~ 0
+VM
+Text Label 4600 1750 2    50   ~ 0
+AO1
+Text Label 4600 1950 2    50   ~ 0
+AO2
+Text Label 4600 2050 2    50   ~ 0
+BO2
+Text Label 4600 2250 2    50   ~ 0
+BO1
+Text Label 4600 2350 2    50   ~ 0
+NFAULT
+Text Label 4600 1850 2    50   ~ 0
+AIS
+Text Label 4600 2150 2    50   ~ 0
+BIS
+$Comp
+L Device:R R11
+U 1 1 5FC9347F
+P 4000 4150
+F 0 "R11" H 4070 4196 50  0000 L CNN
+F 1 "0" H 4070 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3930 4150 50  0001 C CNN
+F 3 "~" H 4000 4150 50  0001 C CNN
+	1    4000 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5FC94526
+P 5050 2500
+F 0 "#PWR0102" H 5050 2250 50  0001 C CNN
+F 1 "GND" H 5055 2327 50  0000 C CNN
+F 2 "" H 5050 2500 50  0001 C CNN
+F 3 "" H 5050 2500 50  0001 C CNN
+	1    5050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5FC95D11
+P 4500 4150
+F 0 "R12" H 4570 4196 50  0000 L CNN
+F 1 "0" H 4570 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4430 4150 50  0001 C CNN
+F 3 "~" H 4500 4150 50  0001 C CNN
+	1    4500 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5FC95F44
+P 4800 4150
+F 0 "R14" H 4870 4196 50  0000 L CNN
+F 1 "0" H 4870 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4730 4150 50  0001 C CNN
+F 3 "~" H 4800 4150 50  0001 C CNN
+	1    4800 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5FC961C7
+P 3700 4150
+F 0 "R13" H 3770 4196 50  0000 L CNN
+F 1 "0" H 3770 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3630 4150 50  0001 C CNN
+F 3 "~" H 3700 4150 50  0001 C CNN
+	1    3700 4150
+	1    0    0    -1  
+$EndComp
+Text Label 4000 3900 0    50   ~ 0
+AIS
+Text Label 4500 3900 2    50   ~ 0
+BIS
+Wire Wire Line
+	3700 4300 4000 4300
+Connection ~ 4000 4300
+Wire Wire Line
+	4000 4300 4500 4300
+Connection ~ 4500 4300
+Wire Wire Line
+	4500 4300 4800 4300
+Text Label 4000 4300 3    50   ~ 0
+GND
+$Comp
+L Device:Q_NMOS_DSG Q11
+U 1 1 5FC97A9A
+P 2900 4100
+F 0 "Q11" H 3104 4146 50  0000 L CNN
+F 1 "AO3422" H 3104 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3100 4200 50  0001 C CNN
+F 3 "~" H 2900 4100 50  0001 C CNN
+	1    2900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_DSG Q12
+U 1 1 5FC9834C
+P 5400 4100
+F 0 "Q12" H 5604 4146 50  0000 L CNN
+F 1 "AO3422" H 5604 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5600 4200 50  0001 C CNN
+F 3 "~" H 5400 4100 50  0001 C CNN
+	1    5400 4100
+	1    0    0    -1  
+$EndComp
+Text Label 2700 4100 2    50   ~ 0
+VIS
+Text Label 5200 4100 2    50   ~ 0
+VIS
+Wire Wire Line
+	3000 4300 3700 4300
+Connection ~ 3700 4300
+Wire Wire Line
+	5500 4300 4800 4300
+Connection ~ 4800 4300
+$Comp
+L Device:R R15
+U 1 1 5FC99C18
+P 3350 3900
+F 0 "R15" V 3143 3900 50  0000 C CNN
+F 1 "0" V 3234 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3280 3900 50  0001 C CNN
+F 3 "~" H 3350 3900 50  0001 C CNN
+	1    3350 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5FC9A01F
+P 5150 3900
+F 0 "R16" V 4943 3900 50  0000 C CNN
+F 1 "0" V 5034 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5080 3900 50  0001 C CNN
+F 3 "~" H 5150 3900 50  0001 C CNN
+	1    5150 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 3900 3200 3900
+Wire Wire Line
+	5300 3900 5500 3900
+Wire Wire Line
+	4000 3900 4000 4000
+Wire Wire Line
+	4500 3900 4500 4000
+Wire Wire Line
+	4000 3900 3700 3900
+Wire Wire Line
+	3700 4000 3700 3900
+Connection ~ 3700 3900
+Wire Wire Line
+	3700 3900 3500 3900
+Wire Wire Line
+	5000 3900 4800 3900
+Wire Wire Line
+	4800 4000 4800 3900
+Connection ~ 4800 3900
+Wire Wire Line
+	4800 3900 4500 3900
+$Comp
+L Device:R R18
+U 1 1 5FCA0C26
+P 4600 2500
+F 0 "R18" H 4670 2546 50  0000 L CNN
+F 1 "10k" H 4670 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4530 2500 50  0001 C CNN
+F 3 "~" H 4600 2500 50  0001 C CNN
+	1    4600 2500
+	1    0    0    -1  
+$EndComp
+Text Label 4600 2650 3    50   ~ 0
+3V3
+$Comp
+L Device:C C12
+U 1 1 5FCA1C8C
+P 5850 1850
+F 0 "C12" V 5598 1850 50  0000 C CNN
+F 1 "2.2u" V 5689 1850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5888 1700 50  0001 C CNN
+F 3 "~" H 5850 1850 50  0001 C CNN
+	1    5850 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 5FCA2154
+P 5850 2150
+F 0 "C11" V 6100 2150 50  0000 C CNN
+F 1 "10n" V 6000 2150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5888 2000 50  0001 C CNN
+F 3 "~" H 5850 2150 50  0001 C CNN
+	1    5850 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 1850 5700 1850
+Wire Wire Line
+	5400 2150 5700 2150
+$Comp
+L Device:C C10
+U 1 1 5FCA414A
+P 6000 2000
+F 0 "C10" H 5885 1954 50  0000 R CNN
+F 1 "10u" H 5885 2045 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6038 1850 50  0001 C CNN
+F 3 "~" H 6000 2000 50  0001 C CNN
+	1    6000 2000
+	-1   0    0    1   
+$EndComp
+Text Label 6000 1850 0    50   ~ 0
+GND
+Text Label 6000 2150 0    50   ~ 0
+VM
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FCAB6EF
+P 3000 3500
+F 0 "#FLG0101" H 3000 3575 50  0001 C CNN
+F 1 "PWR_FLAG" H 3000 3673 50  0000 C CNN
+F 2 "" H 3000 3500 50  0001 C CNN
+F 3 "~" H 3000 3500 50  0001 C CNN
+	1    3000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5FCABBA1
+P 3500 3500
+F 0 "#FLG0102" H 3500 3575 50  0001 C CNN
+F 1 "PWR_FLAG" H 3500 3673 50  0000 C CNN
+F 2 "" H 3500 3500 50  0001 C CNN
+F 3 "~" H 3500 3500 50  0001 C CNN
+	1    3500 3500
+	1    0    0    -1  
+$EndComp
+Text Label 3000 3500 0    50   ~ 0
+VM
+Text Label 3500 3500 0    50   ~ 0
+GND
+$EndSCHEMATC

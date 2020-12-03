@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name fmlibs)(type Legacy)(uri ${KIPRJMOD}/fmlibs.lib)(options "")(descr ""))
+)
