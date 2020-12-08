@@ -12,25 +12,25 @@
 
 对胖蚊子系列使用的 MCU 进行底层抽象封装, 为上层应用 (胖蚊子固件) 提供良好的编程环境.
 
-+ **`libfms.rs`** (`#![deny(unsafe_code)]`) 安全 (Security) 基础库, 提供 CRC, sha2, 数字签名等
++ **`libfms.rs`** (`#![deny(unsafe_code)]`) <https://github.com/sceext2/libfms.rs>
 
-  <https://github.com/sceext2/libfms.rs>
+  安全 (Security) 基础库, 提供 CRC, sha2, 数字签名等
 
-+ **`libfmp.rs`** (`#![deny(unsafe_code)]`) 胖蚊子系列通信协议 (Fat Mosquito Protocol) 的实现和封装
++ **`libfmp.rs`** (`#![deny(unsafe_code)]`) <https://github.com/sceext2/libfmp.rs>
 
-  <https://github.com/sceext2/libfmp.rs>
+  胖蚊子系列通信协议 (Fat Mosquito Protocol) 的实现和封装
 
-+ **`libfmshal.rs`** (`#![allow(unsafe_code)]`) MCU 安全 HAL (Safe HAL), 包括内存安全, 并发安全等
++ **`libfmshal.rs`** (`#![allow(unsafe_code)]`) <https://github.com/sceext2/libfmshal.rs>
 
-  <https://github.com/sceext2/libfmshal.rs>
+  MCU 安全 HAL (Safe HAL), 包括内存安全, 并发安全等
 
-+ **`libfmel.rs`** (`#![deny(unsafe_code)]`) MCU 事件驱动 (Event Loop) 框架
++ **`libfmel.rs`** (`#![deny(unsafe_code)]`) <https://github.com/sceext2/libfmel.rs>
 
-  <https://github.com/sceext2/libfmel.rs>
+  MCU 事件驱动 (Event Loop) 框架
 
-+ **`libfmhal.rs`** (`#![allow(unsafe_code)]`) MCU 硬件抽象 (Hardware Abstraction Layer)
++ **`libfmhal.rs`** (`#![allow(unsafe_code)]`) <https://github.com/sceext2/libfmhal.rs>
 
-  <https://github.com/sceext2/libfmhal.rs>
+  MCU 硬件抽象 (Hardware Abstraction Layer)
 
 支持的 MCU 硬件:
 
@@ -61,9 +61,9 @@
 
 安装到胖蚊子系列硬件的 MCU 中的软件, 用来驱动具体的硬件工作.
 
-+ **fmprinter-1** (`#![deny(unsafe_code)]`) 胖蚊子打印机
++ **fmprinter-1** (`#![deny(unsafe_code)]`) <https://github.com/sceext2/fmprinter-1>
 
-  <https://github.com/sceext2/fmprinter-1>
+  胖蚊子打印机
 
 支持的硬件平台 (电路板):
 
