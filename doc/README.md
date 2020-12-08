@@ -133,11 +133,6 @@
   以便更多人尝试胖蚊子系列.
 
 
-## 相关代码库
-
-TODO
-
-
 ## LICENSE
 
 [`CC-BY-SA 4.0+`](https://creativecommons.org/licenses/by-sa/4.0/)
