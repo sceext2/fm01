@@ -1,0 +1,339 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "FMDP-1-full"
+Date "2020-12-30"
+Rev "v0.1"
+Comp "sceext"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 JP1
+U 1 1 5FEC73D4
+P 1050 2900
+F 0 "JP1" H 968 3117 50  0000 C CNN
+F 1 "Conn_01x02" H 968 3026 50  0000 C CNN
+F 2 "" H 1050 2900 50  0001 C CNN
+F 3 "~" H 1050 2900 50  0001 C CNN
+	1    1050 2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 JC1
+U 1 1 5FEC7A85
+P 1050 3650
+F 0 "JC1" H 968 3967 50  0000 C CNN
+F 1 "Conn_01x03" H 968 3876 50  0000 C CNN
+F 2 "" H 1050 3650 50  0001 C CNN
+F 3 "~" H 1050 3650 50  0001 C CNN
+	1    1050 3650
+	-1   0    0    -1  
+$EndComp
+Text Label 1250 2900 0    50   ~ 0
+GND
+Text Label 1250 3000 0    50   ~ 0
+12V
+Text Label 1250 3550 0    50   ~ 0
+GL
+Text Label 1250 3650 0    50   ~ 0
+GH
+Text Label 1250 3750 0    50   ~ 0
+S1
+$Comp
+L Connector_Generic:Conn_01x02 JC2
+U 1 1 5FEC7E75
+P 1050 4350
+F 0 "JC2" H 968 4567 50  0000 C CNN
+F 1 "Conn_01x02" H 968 4476 50  0000 C CNN
+F 2 "" H 1050 4350 50  0001 C CNN
+F 3 "~" H 1050 4350 50  0001 C CNN
+	1    1050 4350
+	-1   0    0    -1  
+$EndComp
+Text Label 1250 4350 0    50   ~ 0
+GL2
+Text Label 1250 4450 0    50   ~ 0
+GH2
+$Comp
+L Device:R RI1
+U 1 1 5FEC82C6
+P 2150 3000
+F 0 "RI1" V 1943 3000 50  0000 C CNN
+F 1 "0" V 2034 3000 50  0000 C CNN
+F 2 "" V 2080 3000 50  0001 C CNN
+F 3 "~" H 2150 3000 50  0001 C CNN
+	1    2150 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 5FEC84CD
+P 2850 3000
+F 0 "L1" V 3040 3000 50  0000 C CNN
+F 1 "240u 25A" V 2949 3000 50  0000 C CNN
+F 2 "" H 2850 3000 50  0001 C CNN
+F 3 "~" H 2850 3000 50  0001 C CNN
+	1    2850 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5FEC8762
+P 2500 3350
+F 0 "C1" H 2615 3396 50  0000 L CNN
+F 1 "1000u 50V" H 2615 3305 50  0000 L CNN
+F 2 "" H 2538 3200 50  0001 C CNN
+F 3 "~" H 2500 3350 50  0001 C CNN
+	1    2500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q2
+U 1 1 5FEC8C16
+P 3400 2800
+F 0 "Q2" H 3604 2846 50  0000 L CNN
+F 1 "AOD482" H 3604 2755 50  0000 L CNN
+F 2 "" H 3600 2900 50  0001 C CNN
+F 3 "~" H 3400 2800 50  0001 C CNN
+	1    3400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q1
+U 1 1 5FEC8E04
+P 3400 3200
+F 0 "Q1" H 3604 3246 50  0000 L CNN
+F 1 "AOD482" H 3604 3155 50  0000 L CNN
+F 2 "" H 3600 3300 50  0001 C CNN
+F 3 "~" H 3400 3200 50  0001 C CNN
+	1    3400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q3
+U 1 1 5FEC91AC
+P 5400 3200
+F 0 "Q3" H 5604 3246 50  0000 L CNN
+F 1 "AOD482" H 5604 3155 50  0000 L CNN
+F 2 "" H 5600 3300 50  0001 C CNN
+F 3 "~" H 5400 3200 50  0001 C CNN
+	1    5400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q4
+U 1 1 5FEC954B
+P 5400 2800
+F 0 "Q4" H 5604 2846 50  0000 L CNN
+F 1 "AOD482" H 5604 2755 50  0000 L CNN
+F 2 "" H 5600 2900 50  0001 C CNN
+F 3 "~" H 5400 2800 50  0001 C CNN
+	1    5400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R RI2
+U 1 1 5FEC9A1C
+P 5150 2600
+F 0 "RI2" V 4943 2600 50  0000 C CNN
+F 1 "0" V 5034 2600 50  0000 C CNN
+F 2 "" V 5080 2600 50  0001 C CNN
+F 3 "~" H 5150 2600 50  0001 C CNN
+	1    5150 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R RV2
+U 1 1 5FECA20C
+P 4650 2750
+F 0 "RV2" H 4580 2704 50  0000 R CNN
+F 1 "100k" H 4580 2795 50  0000 R CNN
+F 2 "" V 4580 2750 50  0001 C CNN
+F 3 "~" H 4650 2750 50  0001 C CNN
+	1    4650 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R RV1
+U 1 1 5FECA46D
+P 4650 3250
+F 0 "RV1" H 4580 3204 50  0000 R CNN
+F 1 "3.3k" H 4580 3295 50  0000 R CNN
+F 2 "" V 4580 3250 50  0001 C CNN
+F 3 "~" H 4650 3250 50  0001 C CNN
+	1    4650 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5FECA922
+P 4000 3000
+F 0 "C2" H 4115 3046 50  0000 L CNN
+F 1 "470u 100V" H 4115 2955 50  0000 L CNN
+F 2 "" H 4038 2850 50  0001 C CNN
+F 3 "~" H 4000 3000 50  0001 C CNN
+	1    4000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5FECBC11
+P 6650 3100
+F 0 "J2" H 6568 2775 50  0000 C CNN
+F 1 "Conn_01x02" H 6568 2866 50  0000 C CNN
+F 2 "" H 6650 3100 50  0001 C CNN
+F 3 "~" H 6650 3100 50  0001 C CNN
+	1    6650 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5FECBE93
+P 6300 3100
+F 0 "J1" H 6218 2775 50  0000 C CNN
+F 1 "Conn_01x02" H 6218 2866 50  0000 C CNN
+F 2 "" H 6300 3100 50  0001 C CNN
+F 3 "~" H 6300 3100 50  0001 C CNN
+	1    6300 3100
+	1    0    0    1   
+$EndComp
+Text Label 6850 3100 0    50   ~ 0
+GND2
+Text Label 6850 3000 0    50   ~ 0
+V2
+Text Label 6100 3000 2    50   ~ 0
+V3
+$Comp
+L Device:L L2
+U 1 1 5FECEF3B
+P 7350 3000
+F 0 "L2" V 7540 3000 50  0000 C CNN
+F 1 "2.2u 0410" V 7449 3000 50  0000 C CNN
+F 2 "" H 7350 3000 50  0001 C CNN
+F 3 "~" H 7350 3000 50  0001 C CNN
+	1    7350 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5FECF288
+P 7500 3150
+F 0 "C3" H 7615 3196 50  0000 L CNN
+F 1 "1000p 250V" H 7615 3105 50  0000 L CNN
+F 2 "" H 7538 3000 50  0001 C CNN
+F 3 "~" H 7500 3150 50  0001 C CNN
+	1    7500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y1
+U 1 1 5FECFD51
+P 8500 3150
+F 0 "Y1" V 8454 3281 50  0000 L CNN
+F 1 "1.7MHz 24V? 2W" V 8545 3281 50  0000 L CNN
+F 2 "" H 8500 3150 50  0001 C CNN
+F 3 "~" H 8500 3150 50  0001 C CNN
+	1    8500 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 3000 2000 3000
+Text Label 2500 3500 3    50   ~ 0
+GND
+Wire Wire Line
+	2300 3000 2500 3000
+Wire Wire Line
+	2500 3000 2500 3200
+Wire Wire Line
+	2500 3000 2700 3000
+Connection ~ 2500 3000
+Wire Wire Line
+	3000 3000 3500 3000
+Connection ~ 3500 3000
+Text Label 4000 3400 3    50   ~ 0
+GND
+Text Label 3200 2800 2    50   ~ 0
+GH
+Text Label 3200 3200 2    50   ~ 0
+GL
+Text Label 4000 2600 0    50   ~ 0
+V1
+Wire Wire Line
+	3500 2600 4000 2600
+Wire Wire Line
+	4000 2600 4000 2850
+Wire Wire Line
+	3500 3400 4000 3400
+Wire Wire Line
+	4000 3400 4000 3150
+Wire Wire Line
+	4000 2600 4650 2600
+Connection ~ 4000 2600
+Wire Wire Line
+	4000 3400 4650 3400
+Connection ~ 4000 3400
+Wire Wire Line
+	4650 3100 4650 2900
+Text Label 4650 3000 0    50   ~ 0
+S1
+Wire Wire Line
+	4650 2600 5000 2600
+Connection ~ 4650 2600
+Wire Wire Line
+	5300 2600 5500 2600
+Text Label 5500 3400 3    50   ~ 0
+GND
+Text Label 5200 3200 2    50   ~ 0
+GL2
+Text Label 5200 2800 2    50   ~ 0
+GH2
+Wire Wire Line
+	6100 3000 5500 3000
+Connection ~ 5500 3000
+Wire Wire Line
+	6100 3100 6100 3400
+Wire Wire Line
+	6100 3400 5500 3400
+Wire Wire Line
+	7200 3000 6850 3000
+Wire Wire Line
+	6850 3100 6850 3300
+Wire Wire Line
+	6850 3300 7500 3300
+Wire Wire Line
+	7500 3000 8500 3000
+Connection ~ 7500 3000
+Wire Wire Line
+	7500 3300 8500 3300
+Connection ~ 7500 3300
+Wire Notes Line
+	1900 3750 4950 3750
+Wire Notes Line
+	4950 3750 4950 2450
+Wire Notes Line
+	4950 2450 1900 2450
+Wire Notes Line
+	1900 2450 1900 3750
+Wire Notes Line
+	5000 3650 5000 2250
+Wire Notes Line
+	5000 2250 6450 2250
+Wire Notes Line
+	6450 2250 6450 3650
+Wire Notes Line
+	6450 3650 5000 3650
+Wire Notes Line
+	6500 2650 6500 3400
+Wire Notes Line
+	6500 3400 8200 3400
+Wire Notes Line
+	8200 3400 8200 2650
+Wire Notes Line
+	8200 2650 6500 2650
+$EndSCHEMATC
