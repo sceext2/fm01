@@ -1,0 +1,222 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 5
+Title "FMDP-1-B  bridge 1"
+Date "2020-12-30"
+Rev "v0.1"
+Comp "sceext"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L fmlibs:UCC27211 U1
+U 1 1 5FEC84F0
+P 7500 3000
+AR Path="/5FEC7F90/5FEC84F0" Ref="U1"  Part="1" 
+AR Path="/5FED4EE6/5FEC84F0" Ref="U2"  Part="1" 
+F 0 "U1" H 7500 3415 50  0000 C CNN
+F 1 "UCC27211" H 7500 3324 50  0000 C CNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 7500 2600 50  0001 C CNN
+F 3 "" H 7500 3000 50  0001 C CNN
+	1    7500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q2
+U 1 1 5FEC8986
+P 4400 2700
+AR Path="/5FEC7F90/5FEC8986" Ref="Q2"  Part="1" 
+AR Path="/5FED4EE6/5FEC8986" Ref="Q4"  Part="1" 
+F 0 "Q2" H 4604 2746 50  0000 L CNN
+F 1 "AOD482" H 4604 2655 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 4600 2800 50  0001 C CNN
+F 3 "~" H 4400 2700 50  0001 C CNN
+	1    4400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q1
+U 1 1 5FEC8EC2
+P 4400 3300
+AR Path="/5FEC7F90/5FEC8EC2" Ref="Q1"  Part="1" 
+AR Path="/5FED4EE6/5FEC8EC2" Ref="Q3"  Part="1" 
+F 0 "Q1" H 4604 3346 50  0000 L CNN
+F 1 "AOD482" H 4604 3255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 4600 3400 50  0001 C CNN
+F 3 "~" H 4400 3300 50  0001 C CNN
+	1    4400 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2900 4500 3000
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5FECA9EB
+P 5000 2500
+AR Path="/5FEC7F90/5FECA9EB" Ref="J2"  Part="1" 
+AR Path="/5FED4EE6/5FECA9EB" Ref="J4"  Part="1" 
+F 0 "J2" H 5080 2542 50  0000 L CNN
+F 1 "Conn_01x01" H 5080 2451 50  0000 L CNN
+F 2 "fmlibf:JS-2x2mm" H 5000 2500 50  0001 C CNN
+F 3 "~" H 5000 2500 50  0001 C CNN
+	1    5000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JG1
+U 1 1 5FECAAC4
+P 5000 3500
+AR Path="/5FEC7F90/5FECAAC4" Ref="JG1"  Part="1" 
+AR Path="/5FED4EE6/5FECAAC4" Ref="JG2"  Part="1" 
+F 0 "JG1" H 5080 3542 50  0000 L CNN
+F 1 "Conn_01x01" H 5080 3451 50  0000 L CNN
+F 2 "fmlibf:JS-2x2mm" H 5000 3500 50  0001 C CNN
+F 3 "~" H 5000 3500 50  0001 C CNN
+	1    5000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J1
+U 1 1 5FECACE2
+P 5000 3000
+AR Path="/5FEC7F90/5FECACE2" Ref="J1"  Part="1" 
+AR Path="/5FED4EE6/5FECACE2" Ref="J3"  Part="1" 
+F 0 "J1" H 5080 3042 50  0000 L CNN
+F 1 "Conn_01x01" H 5080 2951 50  0000 L CNN
+F 2 "fmlibf:JS-2x2mm" H 5000 3000 50  0001 C CNN
+F 3 "~" H 5000 3000 50  0001 C CNN
+	1    5000 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3000 4500 3000
+Connection ~ 4500 3000
+Wire Wire Line
+	4500 3000 4500 3100
+Wire Wire Line
+	4800 3500 4500 3500
+Wire Wire Line
+	4800 2500 4500 2500
+Text Label 4500 2500 2    50   ~ 0
+VH
+Text Label 4500 3000 2    50   ~ 0
+HS
+$Comp
+L power:GND #PWR0101
+U 1 1 5FECBC38
+P 4500 3500
+AR Path="/5FEC7F90/5FECBC38" Ref="#PWR0101"  Part="1" 
+AR Path="/5FED4EE6/5FECBC38" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0101" H 4500 3250 50  0001 C CNN
+F 1 "GND" H 4505 3327 50  0000 C CNN
+F 2 "" H 4500 3500 50  0001 C CNN
+F 3 "" H 4500 3500 50  0001 C CNN
+	1    4500 3500
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 3500
+Text Label 4500 3500 2    50   ~ 0
+GND
+Text Label 4200 2700 2    50   ~ 0
+HO
+Text Label 4200 3300 2    50   ~ 0
+LO
+$Comp
+L Connector_Generic:Conn_01x01 JP1
+U 1 1 5FECE1D8
+P 9000 2500
+AR Path="/5FEC7F90/5FECE1D8" Ref="JP1"  Part="1" 
+AR Path="/5FED4EE6/5FECE1D8" Ref="JP2"  Part="1" 
+F 0 "JP1" H 9080 2542 50  0000 L CNN
+F 1 "Conn_01x01" H 9080 2451 50  0000 L CNN
+F 2 "fmlibf:JS-2x2mm" H 9000 2500 50  0001 C CNN
+F 3 "~" H 9000 2500 50  0001 C CNN
+	1    9000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JC1
+U 1 1 5FECEBC4
+P 9000 3000
+AR Path="/5FEC7F90/5FECEBC4" Ref="JC1"  Part="1" 
+AR Path="/5FED4EE6/5FECEBC4" Ref="JC3"  Part="1" 
+F 0 "JC1" H 9080 3042 50  0000 L CNN
+F 1 "Conn_01x01" H 9080 2951 50  0000 L CNN
+F 2 "fmlibf:JS-1x2mm" H 9000 3000 50  0001 C CNN
+F 3 "~" H 9000 3000 50  0001 C CNN
+	1    9000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 JC2
+U 1 1 5FECEDA0
+P 9000 3200
+AR Path="/5FEC7F90/5FECEDA0" Ref="JC2"  Part="1" 
+AR Path="/5FED4EE6/5FECEDA0" Ref="JC4"  Part="1" 
+F 0 "JC2" H 9080 3242 50  0000 L CNN
+F 1 "Conn_01x01" H 9080 3151 50  0000 L CNN
+F 2 "fmlibf:JS-1x2mm" H 9000 3200 50  0001 C CNN
+F 3 "~" H 9000 3200 50  0001 C CNN
+	1    9000 3200
+	1    0    0    -1  
+$EndComp
+Text Label 7800 2850 0    50   ~ 0
+LO
+Text Label 7800 2950 0    50   ~ 0
+GND
+Text Label 7800 3050 0    50   ~ 0
+LI
+Text Label 7800 3150 0    50   ~ 0
+HI
+Text Label 7200 2850 2    50   ~ 0
+VDD
+Text Label 8800 2500 2    50   ~ 0
+VDD
+Text Label 7200 3050 2    50   ~ 0
+HO
+Text Label 7200 3150 2    50   ~ 0
+HS
+Text Label 8800 3000 2    50   ~ 0
+LI
+Text Label 8800 3200 2    50   ~ 0
+HI
+$Comp
+L Device:C C1
+U 1 1 5FED0D14
+P 6500 3100
+AR Path="/5FEC7F90/5FED0D14" Ref="C1"  Part="1" 
+AR Path="/5FED4EE6/5FED0D14" Ref="C3"  Part="1" 
+F 0 "C1" H 6615 3146 50  0000 L CNN
+F 1 "0.1u 100V" H 6615 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6538 2950 50  0001 C CNN
+F 3 "~" H 6500 3100 50  0001 C CNN
+	1    6500 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 2950 6500 2950
+Wire Wire Line
+	6500 3250 7200 3250
+Wire Wire Line
+	7200 3250 7200 3150
+$Comp
+L Device:C C2
+U 1 1 5FED2055
+P 8800 2650
+AR Path="/5FEC7F90/5FED2055" Ref="C2"  Part="1" 
+AR Path="/5FED4EE6/5FED2055" Ref="C4"  Part="1" 
+F 0 "C2" H 8915 2696 50  0000 L CNN
+F 1 "10u 25V" H 8915 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8838 2500 50  0001 C CNN
+F 3 "~" H 8800 2650 50  0001 C CNN
+	1    8800 2650
+	1    0    0    -1  
+$EndComp
+Text Label 8800 2800 2    50   ~ 0
+GND
+$EndSCHEMATC

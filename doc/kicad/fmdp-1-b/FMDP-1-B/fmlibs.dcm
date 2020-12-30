@@ -1,11 +1,3 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP LQFP48-G
-K LQFP48
-$ENDCMP
-#
-$CMP LQFP64-G
-K LQFP64
-$ENDCMP
-#
 #End Doc Library
