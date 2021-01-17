@@ -84,11 +84,9 @@
 
 | 名称 | 说明 | 语言 | 运行环境 | 备注 |
 | :-- | :--- | :--: | :------ | :--- |
-| libfmutil.rs | 胖蚊子工具库, 提供可以在多个项目中复用的代码 | rust | arm, x86 | |
-| libfmp.rs | 胖蚊子系列通信协议 (Fat Mosquito Protocol) 的实现和封装 | rust | arm, x86 | |
-| libfmshal.rs | MCU 安全 HAL (Safe HAL), 包括内存安全, 并发安全等 | rust | stm32f0, stm32f1 | |
-| libfmel.rs | MCU 事件驱动 (Event Loop) 框架 | rust | stm32f0, stm32f1 | |
+| libfmp.rs | 胖蚊子系列通信协议 (Fat Mosquito Protocol) 的实现和封装, 以及相关安全功能 | rust | arm, x86 | |
 | libfmhal.rs | MCU 硬件抽象 (Hardware Abstraction Layer) | rust | stm32f0, stm32f1 | |
+| libfmutil.rs | 胖蚊子工具库, 提供可以在多个项目中复用的代码 | rust | arm, x86 | |
 | fmprinter-1 | 胖蚊子打印机 (fmprinter-1) 固件 | rust | stm32f0, stm32f1 | |
 | fmprinter-ui | 胖蚊子打印机用户界面 | js (electron) | Linux, Android | |
 | fmfc | 胖蚊子飞控 (机载部分) | rust, C | esp32, esp32s2, stm32f1 | |

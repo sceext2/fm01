@@ -12,25 +12,17 @@
 
 对胖蚊子系列使用的 MCU 进行底层抽象封装, 为上层应用 (胖蚊子固件) 提供良好的编程环境.
 
-+ **`libfms.rs`** (`#![deny(unsafe_code)]`) <https://github.com/sceext2/libfms.rs>
-
-  安全 (Security) 基础库, 提供 CRC, sha2, 数字签名等
-
 + **`libfmp.rs`** (`#![deny(unsafe_code)]`) <https://github.com/sceext2/libfmp.rs>
 
-  胖蚊子系列通信协议 (Fat Mosquito Protocol) 的实现和封装
-
-+ **`libfmshal.rs`** (`#![allow(unsafe_code)]`) <https://github.com/sceext2/libfmshal.rs>
-
-  MCU 安全 HAL (Safe HAL), 包括内存安全, 并发安全等
-
-+ **`libfmel.rs`** (`#![deny(unsafe_code)]`) <https://github.com/sceext2/libfmel.rs>
-
-  MCU 事件驱动 (Event Loop) 框架
+  胖蚊子系列通信协议 (Fat Mosquito Protocol) 的实现和封装, 以及相关安全功能.
 
 + **`libfmhal.rs`** (`#![allow(unsafe_code)]`) <https://github.com/sceext2/libfmhal.rs>
 
-  MCU 硬件抽象 (Hardware Abstraction Layer)
+  MCU 硬件抽象 (Hardware Abstraction Layer).
+
++ **`libfmutil.rs`** (`#![deny(unsafe_code)]`) <https://github.com/sceext2/libfmutil.rs>
+
+  胖蚊子工具库, 提供可以在多个项目中复用的代码.
 
 支持的 MCU 硬件:
 
