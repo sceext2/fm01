@@ -12,15 +12,15 @@
 
 对胖蚊子系列使用的 MCU 进行底层抽象封装, 为上层应用 (胖蚊子固件) 提供良好的编程环境.
 
-+ **`libfmp.rs`** (`#![deny(unsafe_code)]`) <https://github.com/sceext2/libfmp.rs>
++ **`libfmp.rs`** (`#![deny(unsafe_code)]`) <https://github.com/fm01-2020/libfmp.rs>
 
   胖蚊子系列通信协议 (Fat Mosquito Protocol) 的实现和封装, 以及相关安全功能.
 
-+ **`libfmhal.rs`** (`#![allow(unsafe_code)]`) <https://github.com/sceext2/libfmhal.rs>
++ **`libfmhal.rs`** (`#![allow(unsafe_code)]`) <https://github.com/fm01-2020/libfmhal.rs>
 
   MCU 硬件抽象 (Hardware Abstraction Layer).
 
-+ **`libfmutil.rs`** (`#![deny(unsafe_code)]`) <https://github.com/sceext2/libfmutil.rs>
++ **`libfmutil.rs`** (`#![deny(unsafe_code)]`) <https://github.com/fm01-2020/libfmutil.rs>
 
   胖蚊子工具库, 提供可以在多个项目中复用的代码.
 
@@ -53,7 +53,7 @@
 
 安装到胖蚊子系列硬件的 MCU 中的软件, 用来驱动具体的硬件工作.
 
-+ **fmprinter-1** (`#![deny(unsafe_code)]`) <https://github.com/sceext2/fmprinter-1>
++ **fmprinter-1** (`#![deny(unsafe_code)]`) <https://github.com/fm01-2020/fmprinter-1>
 
   胖蚊子打印机
 
