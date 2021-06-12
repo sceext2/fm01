@@ -12,6 +12,8 @@
 
 + FMUPS-2  胖蚊子树莓派电源
 
++ FMEH  胖蚊子吃多少 (仓库管理 app)
+
 + FMLS  胖蚊子轻蜘蛛 (Fat Mosquito Light Spider)
 
 
@@ -21,14 +23,17 @@
 
 + FMMT-1  胖蚊子小铣床
 
-+ FM3P-1  (胖蚊子 3D 打印机)
++ (FM3P-1  胖蚊子 3D 打印机)
 
 + FMRF-1  胖蚊子兔场 1 号
 
-+ FMAFM-1  胖蚊子自动加料机
++ (FMAFM-1  胖蚊子自动加料机)
 
 
 ## 胖蚊子蛹形态 (FM-P)
+
++ FMDP-4A  胖蚊子黑蜘蛛移动版
+  <br /> MFI 机器优先界面 (Machine First Interface)
 
 + FMDP-4E  胖蚊子黑蜘蛛增强版
 
@@ -52,5 +57,9 @@
 
 + FMDP-7  (PU)
 
++ FMDP-11  (YK)
 
-(2021-04-28)
++ FMDP-12  (YS)
+
+
+(2021-06-13)
